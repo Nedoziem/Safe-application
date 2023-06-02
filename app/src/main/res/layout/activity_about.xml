@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="312dp"
+        android:layout_height="487dp"
+        android:textSize="17dp"
+        android:text="S.A.F.E. is here to promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable, and inclusive institutions at all levels. The UN SDG my app is focused on is the department of economic and social affairs sustainable development. Looking at the number of children and victims who experience violence by caregivers, human trafficking, or sexual violence, it is simply too high. S.A.F.E is here to significantly reduce all forms of violence and related death rates everywhere, end abuse, exploitations, trafficking, and all forms of violence and lastly, promote the rule of law at the national and international levels and ensure equal access to justice for all. S.A.F.E. furthers the goals by providing a quick and easy way to get help whenever you feel a situation escalating to try and eliminate another victim."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
